@@ -1,41 +1,38 @@
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-nav a {
-    text-align: center;
-    background-color: #0b401f;
-    color: #ffffff;
-    text-decoration: none;
-}
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
-.button-box {
-    text-align: center;
-}
-main section {
-    text-align: center;
-}
-#background {
-    height: 725px;
-    background-color: #b6cfe2;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 body {
     background-color: #ffffff;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+ }
+h2  {
+    margin: 0;
+}
+h4 {
+    color: #0b401f;
 }
 header {
     background-color: #031c65;
     color: #ffffff;
 }
-nav a:hover {
-    color: #ffffff;
+footer {
     background-color: #031c65;
+    color: #b6cfe2;
+    margin-top: 200px;
+    padding: 25px 50px;
+}
+.button-box {
+    text-align: center;
 }
 .book, .join {
     background-color: #b6cfe2;
     color: #0b401f;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #ffffff;
@@ -43,43 +40,95 @@ nav a:hover {
 }
 .msg {
     background-color: #031c65;
-}
-footer {
-    background-color: #031c65;
-    color: #b6cfe2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title {
+    font-size: 2em;
+    font-family: "Rock Salt", "Bradley Hand", sans-serif;
     color: #031c65;
-}
-h4 {
-    color: #0b401f;
-}
-.msg h2 {
-    color: #ffffff;
-}
-.msg p {
-    color: #ffffff;
-}
-footer a {
-    color: #b6cfe2;
-    text-decoration: none;
-}
-footer a:hover {
-    background-color: #b6cfe2;
-    color: #0b401f;
+    margin-top: 10px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.msg h2 {
+    font-family: "Rock Salt", "Bradley Hand", sans-serif;
+    color: #ffffff;
+}
+.msg p {
+    color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0b401f;
+}
+.social {
+    padding: 25px 50px;
+}
+.mountains {
+    margin-bottom: 150px;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+    background-color: #b6cfe2;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 #hero-img {
     width: 100%;
 }
+#logo_link {
+    padding-top: 5px;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+nav a {
+    text-align: center;
+    background-color: #0b401f;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 35px;
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #031c65;
+}
+main section {
+    text-align: center;
+}
+footer a {
+    color: #b6cfe2;
+    text-decoration: none;
+  
+}
+footer a:hover {
+    background-color: #b6cfe2;
+    color: #0b401f;
+}
 footer p {
     font-size: 1.2em;
+    padding: 25px 50px;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+main section img {
+    box-sizing: border-box;
 }
